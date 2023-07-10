@@ -15,7 +15,7 @@ export default defineConfig({
     port: 8888, //启动端口
     hmr: {
       host: '127.0.0.1',
-      port: 8888
+      port: 8888,
     },
     // 设置代理
     proxy: {
@@ -26,7 +26,7 @@ export default defineConfig({
         //ws: true,  //允许websocket代理
         //secure: false, //如果是https接口，需要配置这个参数
         //rewrite: (path: string) => path.replace(/^\/api/, '') //去掉请求路径中的‘/api’前缀。如果后端接口也是‘/api’开头则不用配置
-      }
-    }
-  }
+      },
+    },
+  },
 })
