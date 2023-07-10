@@ -1,5 +1,11 @@
 {
   "compilerOptions": {
+    /* 指定类型声明文件的根目录 */
+    "typeRoots": [
+      "node_modules/@types",
+      "src/types"
+    ],
+
     "target": "ES2020",
     "useDefineForClassFields": true,
     "module": "ESNext",
